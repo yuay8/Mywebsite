@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <title>PORFOLIO</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/56824a3719.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <nav>
+        <img src="LogoSample_ByTailorBrands.jpg" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACTS</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="intro">
+        <h1>I'm Albert <span>Burgos</span></h1>
+        <p>
+          An aspiring future Web Tech and Programmer <br />Come and check out my
+          porfolio website
+        </p>
+        <a href="resume.jpg">Check CV</a>
+      </div>
+      <div class="images">
+        <img src="shape.png" class="shape" />
+        <img src="dd7f5408da3e4cccc1e5050341f98045.png" class="boy" />
+      </div>
+    </div>
+
+    <!----------------------------------------------------About Me----------------------------------------------------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="me.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello there! I'm Albert, a 20-year-old student based in the
+              Philippines. I have a passion for Web Developing and Programming,
+              and I'm always eager to be one of the best programmers in the
+              world. When I'm not studying, you can find me playing some
+              onlinevideo games. I believe in work smart and not hard, and I'm
+              excited to the opportunities the future would offer to me. So,
+              Let's connect and see the future together!
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Database Managements</span><br /><i
+                    >Knowledge of database system</i
+                  >
+                </li>
+                <li>
+                  <span>Web Development</span><br /><i
+                    >Understanding of web technologies</i
+                  >
+                </li>
+                <li>
+                  <span>Testing</span><br /><i
+                    >Ensuring code quality and reliability</i
+                  >
+                </li>
+                <li>
+                  <span>Networking</span><br /><i
+                    >Basic understanding of networking concept</i
+                  >
+                </li>
+                <li>
+                  <span>Soft Skills</span><br /><i
+                    >Effective communication and teamwork</i
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Software Developing</span><br />As a student, I worked
+                  on a team project using various programming language like C++
+                  and Java to create a software system.
+                </li>
+                <li>
+                  <span>Web Designing</span><br />I already did some website
+                  designing as I created my ideal website which is an anime or
+                  manga updates website.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022-2026</span><br /><b
+                    >Bachelor of Science in Information Technology</b
+                  ><br />
+                  <i>Rizal Technological University</i>
+                </li>
+                <li>
+                  <span>2020-2022</span><br />
+                  <b>Science, Technology, Engineering, and Mathematics</b><br />
+                  <i>San Lorenzo Ruiz Senior High School</i>
+                </li>
+                <li>
+                  <span>2016-2020</span><br /><b>Drafting</b><br />
+                  <i>Manggahan High School</i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------------------------Services----------------------------------------------------------->
+    <div id="service">
+      <div class="container">
+        <div class="sub-title" style="text-align: center">Services</div>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I specialize in designing and developing websites tailored to the
+              unique needs of individuals, businesses, or organizations.
+            </p>
+            <a href="#">See more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-uncharted"></i>
+            <h2>Software Testing</h2>
+            <p>
+              As a software tester, my expertise lies in providing quality
+              assurance services, meticulously testing software to identify and
+              address issues related to bugs, usability, and performance.
+            </p>
+            <a href="#">See more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Analyst</h2>
+            <p>
+              I focus on analyzing and interpreting data to derive valuable
+              insights for businesses or researchers.
+            </p>
+            <a href="#">See more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------------------------------Projects-------------------------------------------------------------->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title" style="text-align: center">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="project1.jpg" />
+            <div class="layer">
+              <h3>Anime Updates Website</h3>
+              <p>
+                I created my ideal website which is a website for anime and
+                manga updates.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="project2.jpg" />
+            <div class="layer">
+              <h3>Calculator System</h3>
+              <p>
+                This was our group work back when I was still a first year
+                student. A calculator using c++ and visual basic.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="project3.jpg" />
+            <div class="layer">
+              <h3>Short Story</h3>
+              <p>
+                This was my first work when I was still learning html language.
+                A short story entitled Logistics.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!----------------------------------------------------CONTACTS----------------------------------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>albertburgos09@gmail.com</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61550567936879"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Flbrt_brgs%3Figshid%3DOGQ5ZDc2ODk2ZA%253D%253D%26fbclid%3DIwAR3_pTIj6FNJLlLKrfcixNqSWfhx12qAHifCgYCsSEm87IEZ8y04l-bvv7Q&h=AT1jOZjUBGt-wtn6Qipp0HflSzK2qJ7B8s9JqPGDXCBHXMBLJAVQrr3UvlNMF2zM8SJwMI5fw24fxuYzQN-mP_B21K5tVYjsoHpiQ1yq4NgD1MUozY6lXCyBfV9OsXI3uvswtg"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://github.com/yuay8"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Thank you for checking out my website.</p>
+      </div>
+    </div>
+
+    <!----------------------------------------------------ABOUT ME----------------------------------------------------------->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-300px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw5tdbDug4XY543Y9FtgX4FP643jR1JSs1amcTh1NXRYgBZx6l7TS4y7VvGaex0KAebWA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) }).then(
+          (response) => {
+            msg.innerHTML = "Message sent Successfully";
+          }
+        );
+        setTimeout(function () {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset().catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
